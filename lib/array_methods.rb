@@ -18,7 +18,7 @@ def find_max_value(array)
 end
 
 def find_min_value(array)
-  min_value = Int.max
+  min_value = Integer::MAX 
   array.each do |number|
     if number < min_value
       min_value = number
