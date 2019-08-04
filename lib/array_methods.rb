@@ -13,6 +13,7 @@ def find_max_value(array)
     if number > max_value 
       max_value = number
     end
+    max_value
 end
 
 def find_min_value(array)
