@@ -9,7 +9,7 @@ end
 
 def find_max_value(array)
   array.max_by do |element|
-    element.field
+    element.yield
   end
 end
 
