@@ -3,8 +3,6 @@ def find_element_index(array, value_to_find)
   for index in 0...array.length
     if array[index] == value_to_find
       return index
-    else
-      return nil
     end
   end
 end
